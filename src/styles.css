@@ -1,0 +1,48 @@
+.imag {
+  width: 180px;
+  height: 250px;
+}
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --heading: 24px;
+  --sub-heading: 20px;
+  --sub-sub-heading: 18px;
+  --sub-heading-weight: 550;
+  --sub-sub-heading-weight: 550;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --base-color: #475569;
+  --button-color: rgb(55 48 163);
+  --border-light: #eaeaec;
+  --color-discount: #ef4444;
+}
+body {
+  margin-top: 10px;
+}
+
+.card-box {
+  border: 2px solid var(--border-light);
+  width: fit-content;
+}
+
+.name-price-box {
+  margin-top: 0.5rem;
+  border: 1px solid var(--border-light);
+  width: fit-content;
+}
+.card-heading {
+  font-weight: var(--sub-heading-weight);
+}
+.card-tag {
+  margin: 0.5rem 0 0.3rem 0;
+  color: #94a3b8;
+}
+.card-price {
+  font-weight: var(--sub-heading-weight);
+}
+.card-off {
+  color: var(--color-discount);
+  margin: 0 0 0 1rem;
+  font-size: var(--small-font-size);
+}
